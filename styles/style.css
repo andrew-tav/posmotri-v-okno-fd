@@ -90,7 +90,7 @@ ol {
   gap: 10px;
 }
 
-.search-form__label:hover {
+.search-form__label:hover:not(:has(.search-form__textfield)) {
   text-decoration: underline;
   cursor: pointer;
 }
